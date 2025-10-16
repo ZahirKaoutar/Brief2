@@ -1,0 +1,408 @@
+body{
+    background-color: rgb(31, 12, 71);
+    color: white;
+    margin:0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 100px; 
+  
+    
+  
+}
+  .logo img{
+        margin-right: 12px;
+        width: 20px;
+    }
+    
+.txt1 h1{
+    font-weight: bold;
+    margin-left: 12px;
+   
+   
+}
+.list{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    list-style:none;
+  
+    
+}
+.list li{
+    margin-left:40px;
+    color:white;
+}
+.btn1{
+   
+    margin-right:10px;
+    border:2px solid black;
+    padding: 12px 30px;
+    /* height: 30px;
+    width:160px; */
+    width: fit-content;
+    background-color: transparent;
+    color:white;
+    border:white solid  2px;
+
+}
+.continer{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.txt1{
+    display:flex;
+    position:relative;
+    top:100px;
+    left:60px;
+    flex-direction: column;
+   
+}
+p {
+    font-size: 0.8rem;
+}
+
+.continer img{
+    height: 500px;
+    position:relative;
+    right:50px;
+}
+.list1{
+    display:flex;
+    
+    height:100px;
+    background-color: rgb(97, 87, 107);
+    list-style: none;
+    margin:0;
+   
+}
+.list1 li{
+    margin:auto;
+    padding:10px;
+}
+.portfolio{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    
+}
+.portfolio h1{
+    color:white;
+    font-size: 150;
+    text-align: center;
+ 
+}
+.txt2{
+    text-align: center;
+    
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+
+}
+.card{
+    border:3px rgb(209, 30, 254) solid;
+   
+    margin-top:15px;
+    padding: 22px;
+    border-radius:5px;
+    
+
+}
+ .card img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+}  
+.card p,h2{   
+    text-align:center;
+}
+.card h4{
+    padding-left:10px;
+    font-style: italic;
+}
+.cryptprem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    width: 100%;
+    position: relative;
+   top:100px;
+}
+.cryptprem  > img{
+    width:200px;
+}
+.list2 {
+    list-style: none;
+    width:500px;
+    padding-left:0px ;
+    
+}
+.budget{
+    display:flex;  
+    gap:10px;
+
+   
+}
+.budget img{
+    width:20px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+.Features h5{
+    color: rgb(146, 19, 116);
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    margin-top: 250px;
+}
+.team img{
+    height: 350px;
+    position: relative;
+    top: 60px;
+}
+.txt4 h1,p{
+    margin-top:35px;
+}
+.carrés{
+    display:flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items: center;
+    margin-top:80px;
+
+}
+.txt5{
+    text-align: center;
+}
+.squares{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+
+}
+.carrés .txt5{
+    margin-bottom: 50px;
+
+}
+.squares1{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    gap:10px;
+}
+.squares1,.squares2{
+    text-align: center;
+}
+.squares2{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    gap:10px;
+}
+.squares2 img{
+    margin-top:10px;
+}
+.carre1{
+    border:1px solid rgb(206, 21, 166);
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding-bottom: 40px;
+    
+}
+.carre2 {
+     border:1px solid rgb(206, 21, 166);
+    border-top: 0;
+    padding-bottom: 40px;
+    
+    border-left:0;
+
+} 
+.carre3{
+    border:1px solid rgb(206, 21, 166);
+    border-left:0;
+    border-top: 0;
+    border-right: 0;
+     padding-bottom: 40px;
+    
+
+    
+
+}
+.carre11{
+    border:1px solid rgb(206, 21, 166);
+    
+    border-bottom: 0;
+    border-left: 0;
+     padding-bottom: 40px;
+}
+.carre22{
+    border:1px solid rgb(206, 21, 166);
+    border-top: 0;
+    
+    border-left:0;
+    border-bottom: 0;
+     padding-bottom: 40px;
+} 
+.carre33{
+     
+  border:1px solid rgb(206, 21, 166);
+    border-left:0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom:0;
+     padding-bottom: 40px;
+
+}
+
+
+
+.how-it-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:160px;
+    width: 100%;
+    position: relative;
+   top:100px;
+}
+.how-it-work img{
+     height: 450px;
+    position: relative;
+    top: 40px;
+}
+.how-it-work h5{
+    color: rgb(175, 15, 151);
+}
+.Testmonials{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    width: 100%;
+    position: relative;
+   top:180px;
+   text-align: center;
+
+}
+.Testmonials h1 img{
+    width:20px;
+    position: relative;
+    top: -20px;
+    
+}
+.cards-img img{
+    height: 450px;
+    
+}
+.About-us{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 100%;
+    position: relative;
+   top:180px;
+   text-align: center;
+}
+.About-us p {
+    margin-bottom:40px;
+    margin-top:0px;
+}
+.About-us img{
+    width:1000px;
+}
+.About-us h4{
+    color: rgb(222, 29, 216);
+}
+footer{
+    
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction: column;
+    position:relative ;
+    top:300px;
+
+   
+    
+
+}
+footer .globalf{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    
+    
+    
+    
+  
+   
+}
+
+.globalf ul{
+    list-style: none;
+   
+}
+.globalf ul li{
+    margin-top: 10px;
+   
+}
+.pre{
+    color: rgb(220, 21, 203);
+}
+.globalf a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.barreSocial{
+    width:100%;
+    background-color: rgb(220, 21, 203);
+    height: 80px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.icons img{
+   margin-left:10px ;
+
+
+
+}
+.list a:hover{
+    color:rgb(220, 43, 226)
+
+}
+
+
+
+
