@@ -115,7 +115,7 @@ p {
     width:100%;
 
 }
-.card{
+.portfolio .card{
     border:3px rgb(209, 30, 254) solid;
    
     margin-top:15px;
@@ -200,83 +200,50 @@ p {
     display: flex;
     justify-content:space-between;
     flex-direction: column;
-
-
 }
 .carrés .txt5{
     margin-bottom: 50px;
 
 }
-.squares1{
+.flex {
     display: flex;
-    justify-content:center ;
-    align-items:center ;
-    gap:10px;
-}
-.squares1,.squares2{
+    align-items: center;
+    justify-content: center;
+  
+ }
+
+.squares1 > div, .squares2 > div {
+    
+    padding: 12px;
     text-align: center;
+    p{
+        font-size: 0.6rem;
+    }
 }
-.squares2{
-    display: flex;
-    justify-content:center ;
-    align-items:center ;
-    gap:10px;
-}
+
+
 .squares2 img{
     margin-top:10px;
 }
-.carre1{
-    border:1px solid rgb(206, 21, 166);
-    border-top: 0;
-    border-bottom: 0;
-    border-left: 0;
-    padding-bottom: 40px;
+.squares2 > div{
+    border-top:1px solid rgb(206, 21, 166);
+    border-right: 1px solid rgb(206, 21, 166);
+   
     
 }
-.carre2 {
-     border:1px solid rgb(206, 21, 166);
-    border-top: 0;
-    padding-bottom: 40px;
-    
-    border-left:0;
-
-} 
-.carre3{
-    border:1px solid rgb(206, 21, 166);
-    border-left:0;
-    border-top: 0;
+.squares2 > div:last-child{
     border-right: 0;
-     padding-bottom: 40px;
-    
-
-    
+}
+.squares1 > div{
+    border-right: 1px solid rgb(206, 21, 166);
+     margin-bottom: -12px;
 
 }
-.carre11{
-    border:1px solid rgb(206, 21, 166);
-    
-    border-bottom: 0;
-    border-left: 0;
-     padding-bottom: 40px;
-}
-.carre22{
-    border:1px solid rgb(206, 21, 166);
-    border-top: 0;
-    
-    border-left:0;
-    border-bottom: 0;
-     padding-bottom: 40px;
-} 
-.carre33{
-     
-  border:1px solid rgb(206, 21, 166);
-    border-left:0;
-    border-top: 0;
+.squares1 > div:last-child{
     border-right: 0;
-    border-bottom:0;
-     padding-bottom: 40px;
-
 }
+
+
 
 
 
