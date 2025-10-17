@@ -372,6 +372,11 @@ footer .globalf{
     color:rgb(220, 43, 226)
 
 }
+.btn1:hover{
+    background-color: rgb(136, 3, 85);
+    color:white;
+    border-radius:10px;
+}
 
 
 
